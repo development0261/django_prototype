@@ -1,3 +1,4 @@
+backports.zoneinfo
 amqp==5.1.1
 asgiref==3.5.2
 backports.zoneinfo==0.2.1
