@@ -89,10 +89,10 @@ DATABASES = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'prototype',
-        'USER': 'admin',
-        'PASSWORD': 'Admin@123',
-        'HOST': 'localhost',
+        'NAME': 'jntmuhsl',
+        'USER': 'jntmuhsl',
+        'PASSWORD': 'ihEpLa9zi6ZWLeAX8OImNHjdt-IwhprU',
+        'HOST': 'castor.db.elephantsql.com',
         'PORT': 5432,
     }
 }
