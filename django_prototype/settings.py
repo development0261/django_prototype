@@ -141,9 +141,9 @@ STATICFILES_DIRS = [
 # STATIC_ROOT = os.path.join(BASE_DIR,'static')
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
-CELERY_BROKER_URL = 'rediss://prototype-redis-do-user-11804802-0.b.db.ondigitalocean.com:25061'
-BROKER_URL = 'rediss://prototype-redis-do-user-11804802-0.b.db.ondigitalocean.com:25061'
-CELERY_RESULT_BACKEND = 'rediss://prototype-redis-do-user-11804802-0.b.db.ondigitalocean.com:25061'
+CELERY_BROKER_URL = 'redis://prototype-redis-do-user-11804802-0.b.db.ondigitalocean.com:25061'
+BROKER_URL = 'redis://prototype-redis-do-user-11804802-0.b.db.ondigitalocean.com:25061'
+CELERY_RESULT_BACKEND = 'redis://prototype-redis-do-user-11804802-0.b.db.ondigitalocean.com:25061'
 CELERY_ACCEPT_CONTENT = ['application/json']
 CELERY_TASK_SERIALIZER = 'json'
 CELERY_RESULT_SERIALIZER = 'json'
