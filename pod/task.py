@@ -18,8 +18,9 @@ import requests
 def update_task():
     company = Company.objects.first()
     company_name = company.name
-    company.web_content_size = len(requests.get(
-        'http://www.{company}.com'.format(company=company_name)).text)
+    # company.web_content_size = len(requests.get(
+    #     'http://www.{company}.com'.format(company=company_name)).text)
+    company.web_content_size = 90
     company.last_processed_date = datetime.datetime.now()
     print("HELLO")
     company.save()
